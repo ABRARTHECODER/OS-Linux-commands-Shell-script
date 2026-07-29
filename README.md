@@ -217,40 +217,37 @@ egrep '(world$)' newfile
 <img width="367" height="93" alt="Screenshot 2026-07-29 094457" src="https://github.com/user-attachments/assets/82a6caea-ccfc-4099-9b4e-9840bfc904f2" />
 
 
-egrep '(World$)' newfile 
+egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 <img width="357" height="120" alt="Screenshot 2026-07-29 094504" src="https://github.com/user-attachments/assets/8faf7b48-9cbc-4cfd-912d-64b2a5eb0bd5" />
 
 
 
-egrep '((W|w)orld$)' newfile 
+egrep '[1-9]' newfile 
 ## OUTPUT
 
 <img width="317" height="76" alt="Screenshot 2026-07-29 094516" src="https://github.com/user-attachments/assets/224ebe86-a9be-413a-b6fc-069f02c17ab7" />
 
 
-egrep '[1-9]' newfile 
-## OUTPUT
-
-
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+<img width="350" height="73" alt="Screenshot 2026-07-29 094521" src="https://github.com/user-attachments/assets/a23201cc-bdd1-4c16-95d5-f2f4ee792e88" />
+
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-
-
+<img width="375" height="77" alt="Screenshot 2026-07-29 094637" src="https://github.com/user-attachments/assets/b08c9874-65c0-4cf5-aa71-fd171c4017c8" />
 
 egrep l{2} newfile
 ## OUTPUT
 
-
+<img width="277" height="98" alt="Screenshot 2026-07-29 094644" src="https://github.com/user-attachments/assets/13652d18-2bdc-4db5-9f1c-900cc76b64b5" />
 
 
 egrep 's{1,2}' newfile
-## OUTPUT 
+## OUTPUT
 
-
+<img width="332" height="130" alt="Screenshot 2026-07-29 094649" src="https://github.com/user-attachments/assets/03b76704-3803-44d7-bbd8-4fe2f2bc0341" />
 
 cat > file23
 ```
