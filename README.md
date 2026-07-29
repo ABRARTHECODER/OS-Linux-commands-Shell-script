@@ -42,11 +42,13 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+<img width="508" height="400" alt="Screenshot 2026-07-29 091503" src="https://github.com/user-attachments/assets/cd31549a-c044-407a-9e3a-f3a0be7c02c3" />
 
 
 
 cat < file2
 ## OUTPUT
+<img width="487" height="417" alt="Screenshot 2026-07-29 091535" src="https://github.com/user-attachments/assets/8f7c9cee-3858-427d-9ee3-1342fc6152c6" />
 
 
 # Comparing Files
